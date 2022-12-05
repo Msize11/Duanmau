@@ -66,7 +66,6 @@
 </div>
 
 <div class="row mb">
-    <div class="boxsty">Danh mục</div>
     <div class="boxcontent2 menudoc">
         <?php
         foreach ($dsdm as $dm) {

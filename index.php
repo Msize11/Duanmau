@@ -5,7 +5,10 @@ include "Dao/danhmuc.php";
 include "Dao/sanpham.php";
 include "Dao/taikhoan.php";
 
-include "./view/herder.php"; 
+
+ include "./view/herder.php"; 
+include "./view/banner.php"; 
+
 include "view/global.php";
 
 if(!isset($_SESSION['mycart'])) $_SESSION['mycart']=[];
